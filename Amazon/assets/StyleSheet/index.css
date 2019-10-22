@@ -1,0 +1,334 @@
+body{
+    margin: 0px;
+    background-color: 
+    /* background-color: blueviolet; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.row{
+    display: flex;
+}
+
+#container{
+    /* background-color: chocolate; */
+}
+.container{
+    /* background-color: crimson; */
+    /* height: 700px; */
+    width: 1024; 
+}
+#header {
+    background-color: rgb(35,47,62);
+
+}
+#header .logo img{
+    padding-left: 24px;
+    padding-top: 9px;
+    height: 39px;
+    width: 107px;
+}
+
+#header .search{
+padding-top: 10px;
+padding-bottom: 2px;
+}
+#header .search button i{
+    font-size: 20px;
+    color: rgb(51,51,51);
+}
+#header input[type=text]{
+    float: left;
+    border: 2px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 35px;
+    width: 662px;
+}
+#header button{
+    background-color: rgb(243,168,71);
+    float: left;
+    border: 2px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 37px;
+    width: 51px;
+}
+#header .festpic img{
+    height: 49px;
+    width: 415px;
+}
+#header .col_1{
+    width: 14%;
+    /* background-color: aqua; */
+}
+#header .col_2{
+    width: 56%;
+    /* background-color: brown; */
+}
+#header .col_3{
+    width: 31%;
+    /* background-color:  chartreuse; */
+}
+ul li{
+    display: inline-block;
+}
+#main_navigation .location :hover i{
+    transform: scale(1.2);
+}
+#main_navigation .col_1 :hover{
+    border: 1px soli white;
+}
+#main_navigation{
+    padding-top: 8px;
+    background-color: rgb(35,47,62);
+}
+#main_navigation .navigation ul li{
+    padding-left: 22px;
+}
+#main_navigation .col_1{
+    width: 14%;
+}
+#main_navigation .col_2{
+    width: 61%;
+}
+#main_navigation .col_3{
+    width: 31%;
+}
+#main_navigation .cart ul li :hover i{
+    transform: rotate3d(0,1,0,360deg);
+}
+#main_navigation .cart ul li i{
+    transition: 2s;
+}
+#main_navigation .cart ul li{
+    padding-left: 15px;
+}
+#container span{
+    font-size: 14px;
+}
+#container a{
+    color: white;
+}
+.icon{
+    font-size: 35px;
+}
+#main_navigation .container{
+    padding-bottom: 8px;
+}
+#main_navigation .location{
+    padding-left: 20px;
+}
+#banner .image img{
+    height: 505px;
+    width: 1349px;
+}
+#banner{
+    width: 100%;
+    overflow: hidden;
+}
+#banner .carousal{
+    /* border: 2px solid black; */
+    display: flex;
+    /* width: 1345px; */
+    width: 500%;
+    animation: carousal 30s infinite linear;
+}
+@keyframes carousal{
+    0%,15%{
+        transform: translate(0%,0%);
+    }
+    20%,35%{
+        transform: translate(-20%,0%);
+    }
+    40%,55%{
+        transform: translate(-40%,0%);
+    }
+    60%,75%{
+        transform: translate(-60%,0%);
+    }
+    80%,95%{
+        transform: translate(-80%,0%);
+    }
+}
+.column{
+        width: 24%;
+        height: 404px;
+        /* border: 2px  solid black; */
+        margin-left: 18px;
+        margin-right: 16px;
+}
+.content_block{
+        /* padding: 2px 2px 2px 2px; */
+}
+
+#content .section img{
+    margin-left: 26px;
+    margin-top: 36px;
+    margin-bottom: 11px;
+    width: 254px;
+    height: 278px;
+}
+#content .contain{
+    background-color: white;
+    /* background-color:red; */
+}
+#content span a{
+    display: inline-block;
+    padding-left: 26px;
+    padding-bottom: 18px;
+
+    color: rgb(62, 139, 207);
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#content{
+    padding-top: 18px;
+    background-color: rgb(234, 237,237);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer .backtotop button{
+    width: 100%;
+    height: 53px;
+    color: rgb(184,187,190);
+    border: none;
+    background-color: rgb(72,87,105);
+}
+#footer .col_1{
+    width: 18%;
+}
+#footer .col_2{
+    width: 18%;
+}
+#footer .col_3{
+    width: 18%;
+}
+#footer .col_4{
+    width: 18%;
+}
+#footer .col_5{
+    width: 18%;
+}
+#footer .col{
+    padding-top: 56px;
+    padding-bottom: 62px;
+}
+#firstfooter{
+    color: white;
+    background-color: rgb(35,47,62);
+}
+#firstfooter ul li{
+    display: block;
+}
+#firstfooter  ul li span{
+    font-weight: bold;
+    font-size: 19px;
+}
+#firstfooter ul li{
+    font-size: 14px;
+    padding-top: 9px;
+}
+#middlefooter{
+    border-top: 0.1px solid white;
+    background-color: rgb(35,47,62);
+}
+#middlefooter .image img{
+    padding-left: 46%;
+    padding-top: 33px;
+    width: 83px;
+    height: 32px;
+}
+#middlefooter .countryname{
+    padding-top: 8px;
+    padding-left: 20%;
+    padding-bottom: 34px;
+}
+#middlefooter ul li{
+    padding-left: 1%;
+}
+#middlefooter .countryname a{
+    color: rgb(184,187,190);
+    font-size: 12px;   
+}
+#lastfooter {
+    background-color: rgb(19,26,34);
+}
+#lastfooter {
+    font-size: 11px;
+
+}
+#lastfooter .section_1 ul li,.section_2 ul li{
+    padding-left: 90px;
+}
+#lastfooter .secpadding{
+    padding-top: 35px;
+    padding-left: 8%;
+}
+#lastfooter .section_3 span{
+    font-size: 12px;
+    color: rgb(89,91,93)
+}
+#lastfooter .section_3 ul li{
+    padding-left: 13px;
+}
+#lastfooter .section_3{
+    font-size: 12px;
+    padding-top: 55px;
+    padding-left: 418px;
+    padding-bottom: 38px;
+}
